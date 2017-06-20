@@ -16,6 +16,7 @@
 		D7827A501EF892B4007D51E0 /* CatsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7827A4F1EF892B4007D51E0 /* CatsTests.m */; };
 		D7827A5B1EF892B4007D51E0 /* CatsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7827A5A1EF892B4007D51E0 /* CatsUITests.m */; };
 		D7827A6A1EF892F7007D51E0 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = D7827A691EF892F7007D51E0 /* Photo.m */; };
+		D7DCDD5A1EF9948A00AA687E /* CellImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DCDD591EF9948A00AA687E /* CellImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		D7827A5C1EF892B4007D51E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7827A681EF892F7007D51E0 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
 		D7827A691EF892F7007D51E0 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		D7DCDD581EF9948A00AA687E /* CellImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellImage.h; sourceTree = "<group>"; };
+		D7DCDD591EF9948A00AA687E /* CellImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				D7827A381EF892B4007D51E0 /* AppDelegate.h */,
 				D7827A391EF892B4007D51E0 /* AppDelegate.m */,
 				D7827A3B1EF892B4007D51E0 /* ViewController.h */,
+				D7DCDD581EF9948A00AA687E /* CellImage.h */,
+				D7DCDD591EF9948A00AA687E /* CellImage.m */,
 				D7827A3C1EF892B4007D51E0 /* ViewController.m */,
 				D7827A3E1EF892B4007D51E0 /* Main.storyboard */,
 				D7827A681EF892F7007D51E0 /* Photo.h */,
@@ -281,6 +286,7 @@
 				D7827A6A1EF892F7007D51E0 /* Photo.m in Sources */,
 				D7827A3D1EF892B4007D51E0 /* ViewController.m in Sources */,
 				D7827A3A1EF892B4007D51E0 /* AppDelegate.m in Sources */,
+				D7DCDD5A1EF9948A00AA687E /* CellImage.m in Sources */,
 				D7827A371EF892B4007D51E0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +519,7 @@
 				D7827A611EF892B4007D51E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7827A621EF892B4007D51E0 /* Build configuration list for PBXNativeTarget "CatsTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +528,7 @@
 				D7827A641EF892B4007D51E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7827A651EF892B4007D51E0 /* Build configuration list for PBXNativeTarget "CatsUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +537,7 @@
 				D7827A671EF892B4007D51E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3818C69EA8A80F2780D4ACF07EB691D4FF4CBD2A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F07CC548DD3E34007463AC61D26DEA428C80D33C" : 9223372036854775807,
+    "3818C69EA8A80F2780D4ACF07EB691D4FF4CBD2A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BBB03737-F815-4AB6-B9E6-EE6794557014",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F07CC548DD3E34007463AC61D26DEA428C80D33C" : "..",
+    "3818C69EA8A80F2780D4ACF07EB691D4FF4CBD2A" : "Cats\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Cats",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Cats.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/katrinadeguzman\/Cats.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3818C69EA8A80F2780D4ACF07EB691D4FF4CBD2A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/katrinadeguzman\/TipCalculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F07CC548DD3E34007463AC61D26DEA428C80D33C"
+    }
+  ]
+}

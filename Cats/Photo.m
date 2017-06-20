@@ -10,18 +10,16 @@
 
 @implementation Photo
 
-- (instancetype)initWithID:(NSString *)eyeD andOwner:(NSString *)owner andSecret:(NSString *)secret andServer:(NSString *)server andFarm:(NSNumber *)farm andTitle:(NSString *)title
+- (instancetype)initWithServer: (NSString *)server andFarm: (NSNumber *)farm andId: (NSString *)ID andSecret: (NSString *)secret andTitle: (NSString *)title
 {
     self = [super init];
-    if (self)
-    {
-        _eyeD = eyeD;
-        _owner = owner;
-        _secret = secret;
-        _server = server;
-        _farm = farm;
-        _title = title;
-    }
+    _server = server;
+    _farm = farm;
+    _ID = ID;
+    _secret = secret;
+    _title = title;
+    NSString *string = [NSString stringWithFormat:@"https://farm%@.staticflickr.com/%@/%@_%@.jpg", _farm, _server, _ID, _secret];
+    _urlString = string;
     return self;
 }
 
